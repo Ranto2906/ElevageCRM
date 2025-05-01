@@ -1,0 +1,7 @@
+nature;exercise_id;budget_element_id;period_num;amount;status;priority_id
+1;2;1;1;100.00;0;1
+2;2;1;1;50.00;0;1
+1;2;1;2;200.00;0;1
+2;2;1;2;150.00;0;1
+1;2;2;1;300.00;0;1
+2;2;2;1;250.00;0;1

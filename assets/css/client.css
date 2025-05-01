@@ -1,0 +1,104 @@
+/* BarberShop - Clients : Style moderne */
+body {
+    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+.card-header {
+    background: #3578e5;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+    border: none;
+}
+.table {
+    background: #fff;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+.table thead th {
+    background: #eaf1fb;
+    color: #3578e5;
+    font-weight: 600;
+    border: none;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f6fafd;
+}
+.table-striped > tbody > tr:hover {
+    background-color: #e3f0ff;
+    transition: background 0.2s;
+}
+.btn-primary, .btn-success, .btn-warning {
+    border-radius: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px 0 rgba(53,120,229,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover, .btn-success:hover, .btn-warning:hover {
+    background: #ff9800;
+    color: #fff;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    color: #222;
+}
+.card-body {
+    padding: 2rem 1.5rem;
+}
+.form-control {
+    border-radius: 1.5rem;
+    border: 1px solid #dbeafe;
+    box-shadow: none;
+    transition: border 0.2s;
+}
+.form-control:focus {
+    border: 1.5px solid #3578e5;
+    box-shadow: 0 0 0 0.1rem #3578e533;
+}
+.alert-info {
+    background: #eaf1fb;
+    color: #3578e5;
+    border: none;
+    border-radius: 1rem;
+}
+/* Amélioration des imports CSV : pas de bordure pour les inputs, boutons de même taille */
+#importClientsForm .form-control,
+#importActionsForm .form-control,
+#importReactionsForm .form-control,
+#importActionsBaseForm .form-control,
+#importReactionsBaseForm .form-control {
+    border: none;
+    background: #f6fafd;
+    border-radius: 1.5rem;
+    box-shadow: none;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+}
+#exportClientsPdfForm .btn,
+#exportActionsPdfForm .btn,
+#exportReactionsPdfForm .btn,
+#exportActionsBasePdfForm .btn,
+#exportReactionsBasePdfForm .btn,
+#importClientsForm .btn,
+#importActionsForm .btn,
+#importReactionsForm .btn,
+#importActionsBaseForm .btn,
+#importReactionsBaseForm .btn {
+    min-width: 160px;
+    height: 42px;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+@media (max-width: 900px) {
+    .card-body { padding: 1rem 0.5rem; }
+    .table { font-size: 0.95rem; }
+}

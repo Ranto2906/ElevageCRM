@@ -1,0 +1,102 @@
+description,phase,cout
+Recherche d’un barbier sur Google,1,0
+Visite du site web du salon,1,0
+Lecture des avis clients,1,0
+Consultation des services disponibles,1,0
+Comparaison des prix avec d’autres barbiers,1,0
+Visionnage d’une video promotionnelle,1,0
+Suivi du compte Instagram/Facebook du salon,1,0
+Abonnement a la newsletter,1,0
+Inscription a un programme de fidelite,1,0
+Telechargement de l’application du salon,1,0
+Prise de rendez-vous en ligne,1,0
+Appel telephonique pour informations,1,0
+Envoi d’un message via WhatsApp ou Messenger,1,0
+Demande d’un devis pour un forfait special,1,0
+Reception d’un SMS de confirmation,1,0
+Consultation des horaires d’ouverture,1,0
+Choix d’un coiffeur/barbier specifique,1,0
+Recherche d’une promotion ou d’un bon de reduction,1,0
+Preparation de son look de reference,1,0
+Ajout du rendez-vous au calendrier personnel,1,0
+Demande de recommandation a un ami,1,0
+Reponse a un sondage pre-visite,1,0
+Lecture d’un article blog sur les styles tendances,1,0
+Visualisation d’avant/apres sur le site,1,0
+Connexion au compte client sur le site,1,0
+Mise a jour des informations personnelles,1,0
+Validation du mode de paiement,1,0
+Impression d’un coupon ou QR code,1,0
+Participation a un jeu concours,1,0
+Telechargement d’un e-book de conseils capillaires,1,0
+Interaction avec un chatbot pour questions frequentes,1,0
+Participation a un live Instagram du barbier,1,0
+Engagement avec une publicite ciblee,1,0
+Arrivee au salon,2,1200
+reservation,2,1200
+Enregistrement a l’accueil,2,0
+Presentation du rendez-vous,2,0
+Attente dans la salle dediee,2,0
+Consultation du catalogue de coupes,2,0
+Interaction avec le personnel d’accueil,2,0
+Choix final du service souhaite,2,0
+Discussion avec le barbier sur le style,2,0
+Presentation d’un exemple/photo,2,0
+Reaction au devis propose,2,0
+Signature sur tablette (autorisation ou contrat),2,0
+Connexion Wi-Fi offerte,2,0
+Consommation d’une boisson offerte,2,0
+Remplissage d’un formulaire de satisfaction instantanee,2,0
+Consentement pour photos avant/apres,2,0
+Lecture de magazines ou videos sur tablette,2,0
+Reponse a une question personnalisee sur les preferences,2,0
+Utilisation de son telephone pour filmer l’experience,2,0
+Partage d’un moment en story Instagram,2,0
+Interaction avec un ecran tactile (choix produits),2,0
+Achat de produit recommande pendant la seance,2,2000
+Acceptation d’un massage ou soin complementaire,2,1500
+Demande de conseils d’entretien,2,0
+Demande de carte de fidelite physique,2,0
+Proposition de service en abonnement,2,0
+Participation a une promo du jour,2,0
+Reaction a un nouveau parfum utilise,2,0
+Choix de la musique d’ambiance,2,0
+Utilisation d’une carte cadeau,2,0
+Reservation du prochain rendez-vous sur place,2,0
+Paiement immediat apres la prestation,2,0
+Scan du QR code pour laisser un avis,2,0
+Prise de photo "apres" avec l’accord du client,2,0
+Reception d’un message de remerciement,3,0
+evaluation de l’experience via formulaire,3,0
+Laisser un avis sur Google ou Yelp,3,0
+Partage du resultat sur les reseaux sociaux,3,0
+Recommandation du salon a un proche,3,0
+Participation a un programme de parrainage,3,0
+Reponse a un mail de satisfaction,3,0
+Inscription a un sondage post-visite,3,0
+Telechargement d’un bon de reduction pour la prochaine fois,3,0
+Reclamation ou retour d’experience negatif,3,0
+Demande de retouche gratuite,3,0
+Abandon du service apres une mauvaise experience,3,0
+Changement de barbier favori dans le compte client,3,0
+Suivi d’un conseil d’entretien donne par le barbier,3,0
+Achat d’un produit recommande apres coup,3,2000
+Recuperation d’une photo dans l’espace client,3,0
+Reception d’un rappel pour prochaine coupe,3,0
+Demande de reçu ou facture par email,3,0
+Reponse a une campagne de fidelite,3,0
+Participation a un evenement du salon,3,0
+Visionnage d’un tutoriel envoye par email,3,0
+Telechargement d’une playlist musicale du salon,3,0
+Impression de sa carte fidelite digitale,3,0
+Demande de service a domicile,3,0
+Mise a jour de sa note client (si CRM scoring),3,0
+Resiliation du compte client,3,0
+Acceptation des notifications push,3,0
+Lecture des prochains styles tendance,3,0
+Partage de sa coupe a la communaute du salon,3,0
+Depôt de plainte (via formulaire),3,0
+Reservation d’un pack “evenement” (mariage, etc.),3,3500
+Reception d’une alerte anniversaire avec offre speciale,3,0
+Export de son historique de rendez-vous,3,0
+Reinscription apres une longue absence,3,0
