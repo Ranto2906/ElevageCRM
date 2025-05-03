@@ -1,7 +1,12 @@
 <!-- filepath: c:\xampp\htdocs\L2\BarberShop\app\views\effectuer_reaction.php -->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<?php include __DIR__ . '/layouts/header.php'; ?>
+<?php include __DIR__ . '/layouts/sidebar.php'; ?>
+<?php include __DIR__ . '/layouts/topbar.php'; ?>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?= Flight::get('flight.base_url') ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
