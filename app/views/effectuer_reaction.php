@@ -4,9 +4,6 @@
 <html lang="fr">
 <head>
 <?php include __DIR__ . '/layouts/header.php'; ?>
-<?php include __DIR__ . '/layouts/sidebar.php'; ?>
-<?php include __DIR__ . '/layouts/topbar.php'; ?>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?= Flight::get('flight.base_url') ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
@@ -17,6 +14,8 @@
     </script>
 </head>
 <body>
+<?php include __DIR__ . '/layouts/sidebar.php'; ?>
+<?php include __DIR__ . '/layouts/topbar.php'; ?>
 <div class="container mt-4">
     <h1 class="mb-4">Effectuer une Réaction</h1>
 
@@ -95,5 +94,7 @@
         });
     });
 </script>
+
+<?php include __DIR__ . '/layouts/footer.php'; ?>
 </body>
 </html>

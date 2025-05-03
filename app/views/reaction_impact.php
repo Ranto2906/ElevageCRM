@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<?php include __DIR__ . '/layouts/header.php'; ?>
     <meta charset="UTF-8">
     <title>Impact de la réaction</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -8,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+<?php include __DIR__ . '/layouts/sidebar.php'; ?>
+<?php include __DIR__ . '/layouts/topbar.php'; ?>
 <div class="container mt-4">
     <h1 class="mb-4">Impact de la réaction</h1>
     <?php if (!empty($message)): ?>
@@ -66,5 +69,7 @@
     <?php endif; ?>
     <a href="reaction-client" class="btn btn-secondary">Retour aux réactions</a>
 </div>
+<?php include __DIR__ . '/layouts/footer.php'; ?>
+
 </body>
 </html>

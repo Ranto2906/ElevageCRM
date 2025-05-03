@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<?php include __DIR__ . '/layouts/header.php'; ?>
     <meta charset="UTF-8">
     <title>Liste des Réactions en Attente</title>
     <link rel="stylesheet" href="<?= Flight::get('flight.base_url') ?>/assets/css/bootstrap.min.css">
@@ -11,6 +12,8 @@
     </script>
 </head>
 <body>
+<?php include __DIR__ . '/layouts/sidebar.php'; ?>
+<?php include __DIR__ . '/layouts/topbar.php'; ?>
 <div class="container mt-4">
     <h1 class="mb-4">Liste des Réactions en Attente</h1>
 
@@ -53,5 +56,6 @@
         </tbody>
     </table>
 </div>
+<?php include __DIR__ . '/layouts/footer.php'; ?>
 </body>
 </html>
